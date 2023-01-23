@@ -5,7 +5,7 @@ on:
 jobs:
   job_one:
     name: Deploy
-    runs-on: ubuntu-latests
+    runs-on: ubuntu-latest
     steps:
       - name: deploy_changes_pull_push
         uses: appleboy/ssh-action@master
