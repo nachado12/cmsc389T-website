@@ -15,5 +15,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             unalias rm
-            rm -rf cmsc389T-website
+            rm -rf /pub/nmachado/cmsc389T-website
           

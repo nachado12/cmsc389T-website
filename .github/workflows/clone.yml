@@ -13,4 +13,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: git clone git@github.com:nachado12/cmsc389T-website.git
+          script: |
+            cd /pub/nmachado/
+            git clone git@github.com:nachado12/cmsc389T-website.git
